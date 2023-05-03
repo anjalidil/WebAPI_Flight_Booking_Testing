@@ -5,6 +5,9 @@ app.get('/', function (req, res) {
   res.send('Hello World')
 })
 
-app.listen(3000, () => {
-    console.log('node api running')
-})
+app.get('/blog', function (req, res) {
+    res.send('Hello blog')
+  })
+
+
+app.listen(3000);
