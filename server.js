@@ -64,7 +64,7 @@ app.put('/products/:id', async (req, res) => {
     }
 })
 
-//delete
+//delete route
 app.delete('/products/:id', async (req, res) => {
     try {
         const { id } = req.params;
